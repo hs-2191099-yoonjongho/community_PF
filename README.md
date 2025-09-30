@@ -17,6 +17,9 @@ Swagger UI를 통해 API 테스트 및 명세 확인이 가능합니다.
 ---
 
 ## 📊 시스템 아키텍처
+
+![Architecture](docs/architecture.png)
+
 - **Backend**: Java 21, Spring Boot 3.5.4
 - **보안**: Spring Security, JWT 인증
 - **데이터베이스**: MySQL, JPA, Flyway(마이그레이션)
@@ -26,6 +29,13 @@ Swagger UI를 통해 API 테스트 및 명세 확인이 가능합니다.
   - **컨테이너화**: Docker
   - **CI/CD**: Jenkins
   - **클라우드**: AWS (EC2, RDS, ECR, SSM)
+
+
+  
+## 🗄️ 데이터베이스 ERD
+
+![ERD](docs/erd.png)
+
 
 
 ## 🔑 핵심 기능
@@ -142,6 +152,9 @@ Swagger UI를 통해 API 테스트 및 명세 확인이 가능합니다.
 - `PUT /api/members/me`: 현재 로그인한 회원 정보 수정
 - `PUT /api/members/me/password`: 비밀번호 변경
 - `DELETE /api/members/me`: 회원 탈퇴
+
+## 📸 API 캡처 (Swagger / Postman)
+- 자세한 캡처는 [docs/API_CAPTURE.md](docs/API_CAPTURE.md) 참고
 
 ## 🛠️ 기술적 특징
 
