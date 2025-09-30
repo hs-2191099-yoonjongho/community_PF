@@ -17,7 +17,6 @@ Swagger UI를 통해 API 테스트 및 명세 확인이 가능합니다.
 ---
 
 ## 📊 시스템 아키텍처
-
 ![Architecture](docs/architecture.png)
 
 - **Backend**: Java 21, Spring Boot 3.5.4
@@ -33,8 +32,7 @@ Swagger UI를 통해 API 테스트 및 명세 확인이 가능합니다.
 
   
 ## 🗄️ 데이터베이스 ERD
-
-![ERD](docs/erd.png)
+![ERD](docs/erd.PNG)
 
 
 
